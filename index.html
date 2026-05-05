@@ -319,13 +319,11 @@
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 2rem;
+      overflow: hidden;
       transition: all 0.25s;
       display: flex;
       flex-direction: column;
-      gap: 1rem;
     }
-
     .project-card:hover { border-color: rgba(249,115,22,0.3); transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
 
     .project-tag {
@@ -581,7 +579,7 @@
     </div>
 
     <!-- RIGHT SIDE — Photo -->
-    <div style="flex-shrink: 0; margin-bottom: 2rem;">
+    <div style="flex-shrink: 0; margin-left: auto; padding-left: 4rem;">
       <img
         src="Photo.png"
         alt="Al-ameen Lamina"
